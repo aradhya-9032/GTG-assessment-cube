@@ -1,160 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700&amp;display=swap"
+    rel="stylesheet">
 </head>
+
 <body>
-    <header class="header container flex-between" id="Stickyheader">
-      <a href="#" class="logo">GTG</a>
-      <nav class="nav" id="navMenu">
-        <a href="#">Home</a>
-        <a href="#">Shop <span class="arrow-down"></span></a>
-        <a href="#">Fragrances</a>
-        <a href="#">About Us</a>
-        <a href="#">Blog</a>
-        <a href="#">Contact</a>
-      </nav>
+  <header class="header container flex-between" id="Stickyheader">
+    <a href="#" class="logo">GTG</a>
+    <nav class="nav" id="navMenu">
+      <a href="#">Home</a>
+      <a href="#">Shop <span class="arrow-down"></span></a>
+      <a href="#">Fragrances</a>
+      <a href="#">About Us</a>
+      <a href="#">Blog</a>
+      <a href="#">Contact</a>
+    </nav>
 
-      
-      <div class="header-right" id="headerRight">
-        <a href="#" class="icon-btn">
-          <img src="images/search-icon.svg" alt="Search icon"></a>
-        <button class="cta-btn">Shop Now</button>
-      </div>
 
-      <div class="hamburger" id="hamburger">
-        <span></span><span></span><span></span>
+    <div class="header-right" id="headerRight">
+      <a href="#" class="icon-btn">
+        <img src="images/search-icon.svg" alt="Search icon"></a>
+      <button class="cta-btn">Shop Now</button>
+    </div>
+
+    <div class="hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </header>
+  <section class="hero ">
+    <div class="container pt-170 mobile_view">
+      <div class="awarded_wrap flex-between">
+        <img src="images/Medal.svg" alt="Medal icon">
+        <span>Awarded the best perfume in the world</span>
       </div>
-    </header>
-    <section class="hero ">
-      <div class="container pt-170 mobile_view">
-        <div class="awarded_wrap flex-between">
-          <img src="images/Medal.svg" alt="Medal icon">
-          <span>Awarded the best perfume in the world</span>
+      <h1 class="mb-40">Live your best life.</h1>
+      <div class="stats mb-40">
+        <div class="stat">
+          <span class="number">10x</span>
+          <span class="label">power</span>
         </div>
-        <h1 class="mb-40">Live your best life.</h1>
-        <div class="stats mb-40">
-          <div class="stat">
-            <span class="number">10x</span>
-            <span class="label">power</span>
+        <div class="stat">
+          <span class="number">9</span>
+          <span class="label">ingredients</span>
+        </div>
+        <div class="stat">
+          <span class="number">20K+</span>
+          <span class="label">happy customers</span>
+        </div>
+      </div>
+      <button class="cta-btn">Shop Now</button>
+    </div>
+  </section>
+  <section class="mt-146 reveal is-visible">
+    <div class="container">
+      <div class="custom_row gap-100 d-flex">
+        <div class="slider_main_wrap">
+          <div class="slider mb-30">
+            <div class="dots">
+              <span class="dot active" data-index="0"></span>
+              <span class="dot" data-index="1"></span>
+              <span class="dot" data-index="2"></span>
+              <span class="dot" data-index="3"></span>
+            </div>
+            <div class="prev">
+              <img src="images/slider-btn.svg" alt="slide left">
+            </div>
+            <img id="slide" src="images/perfume-b.png">
+            <div class="next">
+              <img src="images/slider-btn.svg" alt="slide right">
+            </div>
           </div>
-          <div class="stat">
-            <span class="number">9</span>
-            <span class="label">ingredients</span>
-          </div>
-          <div class="stat">
-            <span class="number">20K+</span>
-            <span class="label">happy customers</span>
+
+          <div class="images_group">
+            <div class="image_wrap">
+              <img src="images/perfume-b.png" alt="perfume image" data-index="0" class="active">
+            </div>
+            <div class="image_wrap">
+              <img src="images/perfume-c.png" alt="perfume image" data-index="1" class="">
+            </div>
+            <div class="image_wrap">
+              <img src="images/perfume-d.png" alt="perfume image" data-index="2" class="">
+            </div>
+            <div class="image_wrap">
+              <img src="images/perfume-e.png" alt="perfume image" data-index="3" class="">
+            </div>
+
+            <div class="image_wrap">
+              <img src="images/perfume-a.png" alt="perfume image" data-index="4" class="">
+            </div>
+            <div class="image_wrap">
+              <img src="images/perfume-c.png" alt="perfume image" data-index="5" class="">
+            </div>
+            <div class="image_wrap">
+              <img src="images/perfume-d.png" alt="perfume image" data-index="6" class="">
+            </div>
+            <div class="image_wrap">
+              <img src="images/perfume-e.png" alt="perfume image" data-index="7" class="">
+            </div>
           </div>
         </div>
-        <button class="cta-btn">Shop Now</button>
-      </div>
-    </section>
-    <section class="mt-146 reveal is-visible">
-      <div class="container">
-        <div class="custom_row gap-100 d-flex">
-          <div class="slider_main_wrap">
-            <div class="slider mb-30">
-              <div class="dots">
-                <span class="dot active" data-index="0"></span>
-                <span class="dot" data-index="1"></span>
-                <span class="dot" data-index="2"></span>
-                <span class="dot" data-index="3"></span>
-              </div>
-              <div class="prev">
-                <img src="images/slider-btn.svg" alt="slide left">
-              </div>
-              <img id="slide" src="images/perfume-b.png">
-              <div class="next">
-                <img src="images/slider-btn.svg" alt="slide right">
-              </div>
+        <div class="slider_right_content">
+          <h6>GTG Perfumes</h6>
+          <div class="reviews_wrap d-flex-center gap-6px mb-20">
+            <img src="images/rating-stars.svg" alt="rating stars">
+            <span>4.7 (999+ reviews)</span>
+          </div>
+          <p>
+            Experience the timeless allure backed by modern artistry, captured
+            in every bottle of our fragrance. Crafted for those who seek to
+            elevate their essence with purpose and sophistication.
+          </p>
+          <div class="most_popular_box">
+            <div class="box_header">
+              <h5>Most Popular</h5>
             </div>
-
-            <div class="images_group">
-              <div class="image_wrap">
-                <img src="images/perfume-b.png" alt="perfume image" data-index="0" class="active">
+            <div class="box_body subscription-content active" id="single-content">
+              <div class="single_subs_wrap flex-between">
+                <div class="d-flex-center">
+                  <label class="radio-wrap">
+                    <input type="radio" name="option" value="single" checked="">
+                    <span class="custom-radio"></span>
+                    Single Subscription
+                  </label>
+                </div>
+                <h4>$99.99 <span>$146</span></h4>
               </div>
-              <div class="image_wrap">
-                <img src="images/perfume-c.png" alt="perfume image" data-index="1" class="">
+              <div class="choose_fragrance_wrap mt-20 mb-20">
+                <p class="pb-8">Choose a Fragrance</p>
+                <!-- adding images here because toggle button already added above (just to save time / only for interview purposses) -->
+                <div class="frag_images_wrap">
+                  <img src="images/frag-group.svg" alt="images group">
+                </div>
               </div>
-              <div class="image_wrap">
-                <img src="images/perfume-d.png" alt="perfume image" data-index="2" class="">
+              <div class="choose_fragrance_wrap whats_included mt-20 mb-20">
+                <p class="pb-8">What’s Included:</p>
+                <!-- adding images here because toggle button already added above (just to save time / only for interview purposses) -->
+                <div class="frag_images_wrap d-flex-center gap-15">
+                  <img src="images/frag-2.png" alt="images group">
+                </div>
               </div>
-              <div class="image_wrap">
-                <img src="images/perfume-e.png" alt="perfume image" data-index="3" class="">
-              </div>
-
-              <div class="image_wrap">
-                <img src="images/perfume-a.png" alt="perfume image" data-index="4" class="">
-              </div>
-              <div class="image_wrap">
-                <img src="images/perfume-c.png" alt="perfume image" data-index="5" class="">
-              </div>
-              <div class="image_wrap">
-                <img src="images/perfume-d.png" alt="perfume image" data-index="6" class="">
-              </div>
-              <div class="image_wrap">
-                <img src="images/perfume-e.png" alt="perfume image" data-index="7" class="">
-              </div>
+              <ul class="benefits-list">
+                <li>1 bottle shipped monthly</li>
+                <li>Free sampler for Original, Lily and Rose fragrances</li>
+                <li>50% OFF shipping</li>
+                <li>Pause or cancel anytime after 3 months minimum</li>
+                <li>28-day money-back guarantee*</li>
+              </ul>
             </div>
           </div>
-          <div class="slider_right_content">
-            <h6>GTG Perfumes</h6>
-            <div class="reviews_wrap d-flex-center gap-6px mb-20">
-              <img src="images/rating-stars.svg" alt="rating stars">
-              <span>4.7 (999+ reviews)</span>
-            </div>
-            <p>
-              Experience the timeless allure backed by modern artistry, captured
-              in every bottle of our fragrance. Crafted for those who seek to
-              elevate their essence with purpose and sophistication.
-            </p>
-            <div class="most_popular_box">
-              <div class="box_header">
-                <h5>Most Popular</h5>
-              </div>
-             <div class="box_body subscription-content" id="single-content">
-                <div class="single_subs_wrap flex-between">
-                  <div class="d-flex-center">
-                    <label class="radio-wrap">
-                      <input type="radio" name="option" value="single" checked="">
-                      <span class="custom-radio"></span>
-                      Single Subscription
-                    </label>
-                  </div>
-                  <h4>$99.99 <span>$146</span></h4>
-                </div>
-                <div class="choose_fragrance_wrap mt-20 mb-20">
-                  <p class="pb-8">Choose a Fragrance</p>
-                  <!-- adding images here because toggle button already added above (just to save time / only for interview purposses) -->
-                  <div class="frag_images_wrap">
-                    <img src="images/frag-group.svg" alt="images group">
-                  </div>
-                </div>
-                <div class="choose_fragrance_wrap whats_included mt-20 mb-20">
-                  <p class="pb-8">What’s Included:</p>
-                  <!-- adding images here because toggle button already added above (just to save time / only for interview purposses) -->
-                  <div class="frag_images_wrap d-flex-center gap-15">
-                    <img src="images/frag-2.png" alt="images group">
-                  </div>
-                </div>
-                <ul class="benefits-list">
-                  <li>1 bottle shipped monthly</li>
-                  <li>Free sampler for Original, Lily and Rose fragrances</li>
-                  <li>50% OFF shipping</li>
-                  <li>Pause or cancel anytime after 3 months minimum</li>
-                  <li>28-day money-back guarantee*</li>
-                </ul>
-              </div>
-            </div>
-            <div class="single_subs_wrap double_subs flex-between">
+          <div class="subscription-content single_subs_wrap" id="double-content">
+            <div class="double_subs flex-between">
               <div class="d-flex-center">
                 <label class="radio-wrap">
                   <input type="radio" name="option" value="double">
@@ -164,324 +169,326 @@
               </div>
               <h4>$169.99 <span>$146</span></h4>
             </div>
-             <div class="choose_fragrance_wrap mt-20 mb-20">
-                  <p class="pb-8">Choose a Fragrance 1</p>
-                  <div class="frag_images_wrap">
-                    <img src="images/frag-group.svg" alt="images group">
-                  </div>
+            <div class="choose_fragrance_wrap mt-20 mb-20">
+              <p class="pb-8">Choose a Fragrance 1</p>
+              <div class="frag_images_wrap">
+                <img src="images/frag-group.svg" alt="images group">
               </div>
-              <div class="choose_fragrance_wrap mt-20 mb-20">
-                  <p class="pb-8">Choose a Fragrance 2</p>
-                  <div class="frag_images_wrap">
-                    <img src="images/frag-group.svg" alt="images group">
-                  </div>
+            </div>
+            <div class="choose_fragrance_wrap mt-20 mb-20">
+              <p class="pb-8">Choose a Fragrance 2</p>
+              <div class="frag_images_wrap">
+                <img src="images/frag-group.svg" alt="images group">
               </div>
-                <div class="choose_fragrance_wrap whats_included mt-20 mb-20">
-                  <p class="pb-8">What’s Included:</p>
-                  <div class="frag_images_wrap d-flex-center gap-15">
-                    <img src="images/frag-2.png" alt="images group">
-                  </div>
-                </div>
-                <ul class="benefits-list">
-                  <li>1 bottle shipped monthly</li>
-                  <li>Free sampler for Original, Lily and Rose fragrances</li>
-                  <li>50% OFF shipping</li>
-                  <li>Pause or cancel anytime after 3 months minimum</li>
-                  <li>28-day money-back guarantee*</li>
-                </ul>
+            </div>
+            <div class="choose_fragrance_wrap whats_included mt-20 mb-20">
+              <p class="pb-8">What’s Included:</p>
+              <div class="frag_images_wrap d-flex-center gap-15">
+                <img src="images/frag-2.png" alt="images group">
+              </div>
+            </div>
+            <ul class="benefits-list">
+              <li>1 bottle shipped monthly</li>
+              <li>Free sampler for Original, Lily and Rose fragrances</li>
+              <li>50% OFF shipping</li>
+              <li>Pause or cancel anytime after 3 months minimum</li>
+              <li>28-day money-back guarantee*</li>
+            </ul>
             <button class="add_to_cart_btn">Add to Cart</button>
           </div>
         </div>
       </div>
-    </section>
-    <section class="mt-146 reveal is-visible">
-      <div class="container">
-        <div class="flex-between gap-100">
-          <div class="accordion content-left">
-            <div class="accodian-head">
-              <h6>Our Collection</h6>
-            </div>
-            <div class="accordion-item active">
-              <a class="accordion-header">
-                Signature Scents
-                <span class="icon">−</span>
-              </a>
-              <div class="accordion-content" style="max-height: 88px;">
-                <p>
-                  Discover our curated line of signature perfumes, designed to
-                  become your daily companion.
-                </p>
-              </div>
-            </div>
-
-            <div class="accordion-item">
-              <a class="accordion-header">
-                Signature Scents
-                <span class="icon">+</span>
-              </a>
-              <div class="accordion-content">
-                <p>
-                  Discover our curated line of signature perfumes, designed to
-                  become your daily companion.
-                </p>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <a class="accordion-header">
-                Signature Scents
-                <span class="icon">+</span>
-              </a>
-              <div class="accordion-content">
-                <p>
-                  Discover our curated line of signature perfumes, designed to
-                  become your daily companion.
-                </p>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <a class="accordion-header">
-                Signature Scents
-                <span class="icon">+</span>
-              </a>
-              <div class="accordion-content">
-                <p>
-                  Discover our curated line of signature perfumes, designed to
-                  become your daily companion.
-                </p>
-              </div>
+    </div>
+  </section>
+  <section class="mt-146 reveal is-visible">
+    <div class="container">
+      <div class="flex-between gap-100">
+        <div class="accordion content-left">
+          <div class="accodian-head">
+            <h6>Our Collection</h6>
+          </div>
+          <div class="accordion-item active">
+            <a class="accordion-header">
+              Signature Scents
+              <span class="icon">−</span>
+            </a>
+            <div class="accordion-content" style="max-height: 88px;">
+              <p>
+                Discover our curated line of signature perfumes, designed to
+                become your daily companion.
+              </p>
             </div>
           </div>
-          <div class="banner-right">
-            <img style="width: 100%" src="images/accodian-right-banner.png" alt="banner here">
+
+          <div class="accordion-item">
+            <a class="accordion-header">
+              Signature Scents
+              <span class="icon">+</span>
+            </a>
+            <div class="accordion-content">
+              <p>
+                Discover our curated line of signature perfumes, designed to
+                become your daily companion.
+              </p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <a class="accordion-header">
+              Signature Scents
+              <span class="icon">+</span>
+            </a>
+            <div class="accordion-content">
+              <p>
+                Discover our curated line of signature perfumes, designed to
+                become your daily companion.
+              </p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <a class="accordion-header">
+              Signature Scents
+              <span class="icon">+</span>
+            </a>
+            <div class="accordion-content">
+              <p>
+                Discover our curated line of signature perfumes, designed to
+                become your daily companion.
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
-    <section class="mt-100 reveal is-visible">
-      <div class="accuracy_wrap" id="stats">
-        <div class="grid_container">
-          <div class="accuracy_inner_container">
-            <h6>
-              <span class="counter" data-target="84">84</span>%
-            </h6>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-          </div>
-      
-          <div class="accuracy_inner_container">
-            <h6>
-              <span class="counter" data-target="78">78</span>%
-            </h6>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-          </div>
-      
-          <div class="accuracy_inner_container">
-            <h6>
-              <span class="counter" data-target="89">89</span>%
-            </h6>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-          </div>
-      
-          <div class="accuracy_inner_container">
-            <h6>
-              <span class="counter" data-target="90">90</span>%
-            </h6>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-          </div>
+        <div class="banner-right">
+          <img style="width: 100%" src="images/accodian-right-banner.png" alt="banner here">
         </div>
       </div>
-    </section>
-    <section class="mt-100 mb-100 reveal is-visible">
-      <div class="container-xl">
-        <div class="why_gtg_wrap">
-          <h6 class="mb-40">---</h6>
-          <h5>Why GTG is the #1 Choice</h5>
-          <div class="table-wrapper">
-            <table class="comparison-table">
-              <thead>
-                <tr>
-                  <th style="color: #322d2d">Qualities</th>
-                  <th class="highlight">
-                    <img src="images/perfume-e.png" alt="perfume image">
-                    <span style="font-size: 20px; color: #000; padding-bottom: 20px">GTG</span>
-                  </th>
-                  <th>
-                    <img src="images/perfume-b.png" alt="perfume image">
-                    <span>Arose</span>
-                  </th>
-                  <th>
-                    <img src="images/perfume-c.png" alt="perfume image">
-                    <span>Bella</span>
-                  </th>
-                  <th>
-                    <img src="images/perfume-d.png" alt="perfume image">
-                    <span>Daisies</span>
-                  </th>
-                </tr>
-              </thead>
-
-              <tbody>
-                <tr>
-                  <td>Potency Concentration</td>
-                  <td class="highlight">10x</td>
-                  <td>1x</td>
-                  <td>1x</td>
-                  <td>10x</td>
-                </tr>
-                <tr>
-                  <td>Longevity</td>
-                  <td class="highlight check">
-                    <img src="images/green-check.svg" alt="green check">
-                  </td>
-                  <td class="cross">
-                    <img src="images/green-check.svg" alt="green check">
-                  </td>
-                  <td class="cross">
-                    <img src="images/cross-icon.svg" alt="cross icon">
-                  </td>
-                  <td class="check">
-                    <img src="images/green-check.svg" alt="green check">
-                  </td>
-                </tr>
-
-                <tr>
-                  <td>Sillage</td>
-                  <td class="highlight check">
-                    <img src="images/green-check.svg" alt="green check">
-                  </td>
-                  <td class="cross">
-                    <img src="images/cross-icon.svg" alt="cross icon">
-                  </td>
-                  <td class="cross">
-                    <img src="images/cross-icon.svg" alt="cross icon">
-                  </td>
-                  <td class="cross">
-                    <img src="images/cross-icon.svg" alt="cross icon">
-                  </td>
-                </tr>
-
-                <tr>
-                  <td>Bottle Design Score</td>
-                  <td class="highlight">9</td>
-                  <td>5</td>
-                  <td>6</td>
-                  <td>2</td>
-                </tr>
-
-                <tr>
-                  <td>Blend and Harmony</td>
-                  <td class="highlight check">
-                    <img src="images/green-check.svg" alt="green check">
-                  </td>
-                  <td class="cross">
-                    <img src="images/cross-icon.svg" alt="cross icon">
-                  </td>
-                  <td class="cross">
-                    <img src="images/cross-icon.svg" alt="cross icon">
-                  </td>
-                  <td class="cross">
-                    <img src="images/cross-icon.svg" alt="cross icon">
-                  </td>
-                </tr>
-
-                <tr>
-                  <td>Skin Compatibility</td>
-                  <td class="highlight check">
-                    <img src="images/green-check.svg" alt="green check">
-                  </td>
-                  <td class="cross">
-                    <img src="images/cross-icon.svg" alt="cross icon">
-                  </td>
-                  <td class="cross">
-                    <img src="images/cross-icon.svg" alt="cross icon">
-                  </td>
-                  <td class="cross">
-                    <img src="images/cross-icon.svg" alt="cross icon">
-                  </td>
-                </tr>
-
-                <tr>
-                  <td>Scent Profile</td>
-                  <td class="highlight check">
-                    <img src="images/green-check.svg" alt="green check">
-                  </td>
-                  <td class="check">
-                    <img src="images/green-check.svg" alt="green check">
-                  </td>
-                  <td class="cross">
-                    <img src="images/cross-icon.svg" alt="cross icon">
-                  </td>
-                  <td class="cross">
-                    <img src="images/cross-icon.svg" alt="cross icon">
-                  </td>
-                </tr>
-
-                <tr>
-                  <td>Price vs. Quality</td>
-                  <td class="highlight check">
-                    <img src="images/green-check.svg" alt="green check">
-                  </td>
-                  <td class="check">
-                    <img src="images/green-check.svg" alt="green check">
-                  </td>
-                  <td class="cross">
-                    <img src="images/cross-icon.svg" alt="cross icon">
-                  </td>
-                  <td class="check">
-                    <img src="images/green-check.svg" alt="green check">
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-
-          <div class="table-footer">
-            <button class="cta-btn">Try It Risk-Free</button>
-          </div>
-        </div>
-      </div>
-    </section>
-    <footer class="footer reveal is-visible">
-      <div class="footer-brand">
-        <h2>GTG</h2>
-      </div>
-
-      <div class="footer-container">
-        <div class="footer-links">
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Shop</a></li>
-            <li><a href="#">Fragrances</a></li>
-          </ul>
-
-          <ul>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-          <div class="footer-social">
-            <a href="#"><img src="images/Facebook.svg" alt="Facebook icon">Facebook</a>
-            <a href="#"><img src="images/Instagram.svg" alt="Instagram icon">Instagram</a>
-            <a href="#"><img src="images/X.svg" alt="X icon">X</a>
-          </div>
+    </div>
+  </section>
+  <section class="mt-100 reveal is-visible">
+    <div class="accuracy_wrap" id="stats">
+      <div class="grid_container">
+        <div class="accuracy_inner_container">
+          <h6>
+            <span class="counter" data-target="84">84</span>%
+          </h6>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
         </div>
 
-        <div class="footer-newsletter">
-          <p>
-            Join our newsletter to stay up to date on features and releases.
-          </p>
+        <div class="accuracy_inner_container">
+          <h6>
+            <span class="counter" data-target="78">78</span>%
+          </h6>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+        </div>
 
-          <div class="newsletter-form">
-            <input type="email" placeholder="Enter your email">
-            <button>Subscribe</button>
-          </div>
+        <div class="accuracy_inner_container">
+          <h6>
+            <span class="counter" data-target="89">89</span>%
+          </h6>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+        </div>
 
-          <span>
-            By subscribing you agree to our <a>Privacy Policy</a> and provide
-            consent to receive updates from our company.
-          </span>
+        <div class="accuracy_inner_container">
+          <h6>
+            <span class="counter" data-target="90">90</span>%
+          </h6>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
         </div>
       </div>
-    </footer>
-    <Script src="script.js"></Script>
+    </div>
+  </section>
+  <section class="mt-100 mb-100 reveal is-visible">
+    <div class="container-xl">
+      <div class="why_gtg_wrap">
+        <h6 class="mb-40">---</h6>
+        <h5>Why GTG is the #1 Choice</h5>
+        <div class="table-wrapper">
+          <table class="comparison-table">
+            <thead>
+              <tr>
+                <th style="color: #322d2d">Qualities</th>
+                <th class="highlight">
+                  <img src="images/perfume-e.png" alt="perfume image">
+                  <span style="font-size: 20px; color: #000; padding-bottom: 20px">GTG</span>
+                </th>
+                <th>
+                  <img src="images/perfume-b.png" alt="perfume image">
+                  <span>Arose</span>
+                </th>
+                <th>
+                  <img src="images/perfume-c.png" alt="perfume image">
+                  <span>Bella</span>
+                </th>
+                <th>
+                  <img src="images/perfume-d.png" alt="perfume image">
+                  <span>Daisies</span>
+                </th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td>Potency Concentration</td>
+                <td class="highlight">10x</td>
+                <td>1x</td>
+                <td>1x</td>
+                <td>10x</td>
+              </tr>
+              <tr>
+                <td>Longevity</td>
+                <td class="highlight check">
+                  <img src="images/green-check.svg" alt="green check">
+                </td>
+                <td class="cross">
+                  <img src="images/green-check.svg" alt="green check">
+                </td>
+                <td class="cross">
+                  <img src="images/cross-icon.svg" alt="cross icon">
+                </td>
+                <td class="check">
+                  <img src="images/green-check.svg" alt="green check">
+                </td>
+              </tr>
+
+              <tr>
+                <td>Sillage</td>
+                <td class="highlight check">
+                  <img src="images/green-check.svg" alt="green check">
+                </td>
+                <td class="cross">
+                  <img src="images/cross-icon.svg" alt="cross icon">
+                </td>
+                <td class="cross">
+                  <img src="images/cross-icon.svg" alt="cross icon">
+                </td>
+                <td class="cross">
+                  <img src="images/cross-icon.svg" alt="cross icon">
+                </td>
+              </tr>
+
+              <tr>
+                <td>Bottle Design Score</td>
+                <td class="highlight">9</td>
+                <td>5</td>
+                <td>6</td>
+                <td>2</td>
+              </tr>
+
+              <tr>
+                <td>Blend and Harmony</td>
+                <td class="highlight check">
+                  <img src="images/green-check.svg" alt="green check">
+                </td>
+                <td class="cross">
+                  <img src="images/cross-icon.svg" alt="cross icon">
+                </td>
+                <td class="cross">
+                  <img src="images/cross-icon.svg" alt="cross icon">
+                </td>
+                <td class="cross">
+                  <img src="images/cross-icon.svg" alt="cross icon">
+                </td>
+              </tr>
+
+              <tr>
+                <td>Skin Compatibility</td>
+                <td class="highlight check">
+                  <img src="images/green-check.svg" alt="green check">
+                </td>
+                <td class="cross">
+                  <img src="images/cross-icon.svg" alt="cross icon">
+                </td>
+                <td class="cross">
+                  <img src="images/cross-icon.svg" alt="cross icon">
+                </td>
+                <td class="cross">
+                  <img src="images/cross-icon.svg" alt="cross icon">
+                </td>
+              </tr>
+
+              <tr>
+                <td>Scent Profile</td>
+                <td class="highlight check">
+                  <img src="images/green-check.svg" alt="green check">
+                </td>
+                <td class="check">
+                  <img src="images/green-check.svg" alt="green check">
+                </td>
+                <td class="cross">
+                  <img src="images/cross-icon.svg" alt="cross icon">
+                </td>
+                <td class="cross">
+                  <img src="images/cross-icon.svg" alt="cross icon">
+                </td>
+              </tr>
+
+              <tr>
+                <td>Price vs. Quality</td>
+                <td class="highlight check">
+                  <img src="images/green-check.svg" alt="green check">
+                </td>
+                <td class="check">
+                  <img src="images/green-check.svg" alt="green check">
+                </td>
+                <td class="cross">
+                  <img src="images/cross-icon.svg" alt="cross icon">
+                </td>
+                <td class="check">
+                  <img src="images/green-check.svg" alt="green check">
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="table-footer">
+          <button class="cta-btn">Try It Risk-Free</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer reveal is-visible">
+    <div class="footer-brand">
+      <h2>GTG</h2>
+    </div>
+
+    <div class="footer-container">
+      <div class="footer-links">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Shop</a></li>
+          <li><a href="#">Fragrances</a></li>
+        </ul>
+
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="footer-social">
+          <a href="#"><img src="images/Facebook.svg" alt="Facebook icon">Facebook</a>
+          <a href="#"><img src="images/Instagram.svg" alt="Instagram icon">Instagram</a>
+          <a href="#"><img src="images/X.svg" alt="X icon">X</a>
+        </div>
+      </div>
+
+      <div class="footer-newsletter">
+        <p>
+          Join our newsletter to stay up to date on features and releases.
+        </p>
+
+        <div class="newsletter-form">
+          <input type="email" placeholder="Enter your email">
+          <button>Subscribe</button>
+        </div>
+
+        <span>
+          By subscribing you agree to our <a>Privacy Policy</a> and provide
+          consent to receive updates from our company.
+        </span>
+      </div>
+    </div>
+  </footer>
+  <Script src="script.js"></Script>
 </body>
+
 </html>

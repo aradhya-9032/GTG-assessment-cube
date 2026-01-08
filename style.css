@@ -568,7 +568,7 @@ a.logo {
   background-position: center;
 }
 .double_subs {
-  border: 1px solid #b8b8b8;
+  /* border: 1px solid #b8b8b8; */
   border-radius: 6.07px;
   margin-top: 11px;
   padding: 13px 16px;
@@ -1056,4 +1056,14 @@ a {
   .stats .stat .number {
     font-size: 30px;
   }
+}
+.subscription-content {
+  max-height: 40px;
+  overflow: hidden;
+  border: 1px solid #b8b8b8;
+  transition: max-height 0.3s ease;
+}
+
+.subscription-content.active {
+  max-height: 2000px;
 }

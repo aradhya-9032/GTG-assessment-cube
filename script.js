@@ -174,3 +174,38 @@ const observer = new IntersectionObserver(
 );
 
 reveals.forEach(section => observer.observe(section));
+
+// ===============================
+// SUBSCRIPTION TOGGLE (FINAL)
+// ===============================
+document.addEventListener("DOMContentLoaded", () => {
+  const radios = document.querySelectorAll('input[name="option"]');
+  const single = document.getElementById("single-content");
+  const double = document.getElementById("double-content");
+
+  if (!single || !double) return;
+
+  function toggleSubscription() {
+    const selected = document.querySelector(
+      'input[name="option"]:checked'
+    )?.value;
+
+    // Always close both first
+    single.classList.remove("active");
+    double.classList.remove("active");
+
+    // Open only the selected one
+    if (selected === "single") {
+      single.classList.add("active");
+    } else if (selected === "double") {
+      double.classList.add("active");
+    }
+  }
+
+  // Default
+  toggleSubscription();
+
+  radios.forEach(radio =>
+    radio.addEventListener("change", toggleSubscription)
+  );
+});
